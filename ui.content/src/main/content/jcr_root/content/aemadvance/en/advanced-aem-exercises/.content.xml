@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-03-31T16:45:44.001+05:30"
+        cq:lastModifiedBy="akash.r"
+        cq:template="/conf/aemadvance/settings/wcm/templates/content-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Advanced AEM Exercises"
+        sling:resourceType="aemadvance/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <multifieldcomponent
+                jcr:created="{Date}2019-03-29T01:36:04.648+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-30T23:56:41.820+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/multifieldcomponent">
+                <multifieldcomponent jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        linkText="News"
+                        linkURL="/content/aemadvance/en/advanced-aem-exercises"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        linkText="Publications"
+                        linkURL="/content/aemadvance/en/advanced-aem-exercises"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        linkText="CLE Events"
+                        linkURL="/content/aemadvance/en/advanced-aem-exercises"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        linkText="Events &amp; Webniars"
+                        linkURL="/content/aemadvance/en/advanced-aem-exercises"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        linkText="Case Studies"
+                        linkURL="/content/aemadvance/en/advanced-aem-exercises"/>
+                    <item5
+                        jcr:primaryType="nt:unstructured"
+                        linkText="Crunched Credit Blog"
+                        linkURL="/content/aemadvance/en/advanced-aem-exercises"/>
+                </multifieldcomponent>
+            </multifieldcomponent>
+            <dynamicfields
+                jcr:created="{Date}2019-03-29T01:56:15.120+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-31T00:49:09.631+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/dynamicfields">
+                <dynamicfields jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        addressLineOne="160 Queen "
+                        addressLineTwo="Victoria Street"
+                        city="London"
+                        countries="USA"
+                        designation="Associate"
+                        faxNumber="+91 9941514525"
+                        name="Abdul Azeem s/o Abdul"
+                        phoneNumber="+91 9941514525"
+                        profileImage="/content/dam/aemadvance/abdul.jpeg"
+                        state="telangana"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        addressLineOne="HNo: 104, Shastro nagar"
+                        addressLineTwo="Gandhi Nagar"
+                        city="Jammu"
+                        countries="India"
+                        designation="CEO"
+                        faxNumber="+91 9941514525"
+                        name="Rahul Gandhi"
+                        phoneNumber="+91 9419598666"
+                        profileImage="/content/dam/aemadvance/profilepicture-men.png"
+                        state="jk"/>
+                </dynamicfields>
+            </dynamicfields>
+            <contactus_component
+                jcr:created="{Date}2019-03-29T01:37:47.581+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-31T01:47:19.425+05:30"
+                jcr:lastModifiedBy="akash.r"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/contactuscomponent"
+                btnText="SEND"
+                checkbox="CC me"
+                email="Email Id"
+                firstname="First Name"
+                lastname="Last Name"
+                phonenumber="Phone Number"
+                questions="Question"
+                tnc="By submitting this form you agree to TA Digital Terms and Conditions.">
+                <navigation jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        emails="rahul1mahajan@gmail.com"
+                        name="Akash"
+                        number="9419298665"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        emails="akshh2oo@gmail.com"
+                        name="Akash"
+                        number="ads"/>
+                </navigation>
+                <contactUs jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        emails="rahul1mahajan@gmail.com"
+                        name="Rahul Gandhi"
+                        number="9419298665"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        emails="akshh2oo@gmail.com"
+                        name="Akash"
+                        number="9697151"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        emails="rahul1mahajan@gmail.com"
+                        name="Rahul Gandhi"
+                        number="9419298665"/>
+                </contactUs>
+            </contactus_component>
+            <carousel
+                jcr:created="{Date}2019-03-29T01:58:04.356+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-29T01:58:04.356+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/carousel">
+                <par
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/parsys">
+                    <carouselimage
+                        jcr:created="{Date}2019-03-29T01:58:28.936+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-03-29T01:59:12.365+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemadvance/components/content/carouselimage"
+                        carouselImageCaption="Men"
+                        carouselImagePath="/content/dam/we-retail/en/people/mens/men_5.jpg"/>
+                    <carouselimage_copy
+                        jcr:created="{Date}2019-03-29T01:58:28.936+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-03-29T01:59:32.621+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemadvance/components/content/carouselimage"
+                        carouselImageCaption="Women"
+                        carouselImagePath="/content/dam/we-retail/en/people/womens/women_2.jpg"/>
+                    <carouselimage_copy_342716818
+                        jcr:created="{Date}2019-03-29T01:58:28.936+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-03-31T16:35:40.389+05:30"
+                        jcr:lastModifiedBy="akash.r"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemadvance/components/content/carouselimage"
+                        carouselImageCaption="Men"
+                        carouselImagePath="/content/dam/we-retail/en/people/mens/men_1.jpg"/>
+                    <carouselimage_copy_336867899
+                        jcr:created="{Date}2019-03-29T01:58:28.936+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-03-31T16:45:23.839+05:30"
+                        jcr:lastModifiedBy="akash.r"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemadvance/components/content/carouselimage"
+                        carouselImageCaption="asdsfg"
+                        carouselImagePath="/content/dam/we-retail/en/people/womens/women_6.jpg"/>
+                    <carouselimage_1483962007
+                        jcr:created="{Date}2019-03-31T16:37:00.054+05:30"
+                        jcr:createdBy="akash.r"
+                        jcr:lastModified="{Date}2019-03-31T16:37:23.517+05:30"
+                        jcr:lastModifiedBy="akash.r"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemadvance/components/content/carouselimage"
+                        carouselImageCaption="dgfg"
+                        carouselImagePath="/content/dam/we-retail/en/people/mens/men_5.jpg"/>
+                    <carouselimage_1591124629
+                        jcr:created="{Date}2019-03-31T16:38:55.188+05:30"
+                        jcr:createdBy="akash.r"
+                        jcr:lastModified="{Date}2019-03-31T16:45:43.997+05:30"
+                        jcr:lastModifiedBy="akash.r"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemadvance/components/content/carouselimage"
+                        carouselImageCaption="sadfs"
+                        carouselImagePath="/content/dam/we-retail/en/people/womens/women_6.jpg"/>
+                    <carouselimage_652128861
+                        jcr:created="{Date}2019-03-31T16:40:12.731+05:30"
+                        jcr:createdBy="akash.r"
+                        jcr:lastModified="{Date}2019-03-31T16:40:21.584+05:30"
+                        jcr:lastModifiedBy="akash.r"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemadvance/components/content/carouselimage"
+                        carouselImageCaption="asdfsg"/>
+                </par>
+            </carousel>
+            <facebook_component
+                jcr:created="{Date}2019-03-29T02:00:44.251+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-31T03:00:57.451+05:30"
+                jcr:lastModifiedBy="akash.r"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/facebookcomponent"
+                colorScheme="dark"
+                font="monospace"
+                layoutStyles="standard"
+                layoutStyles_x0025_0A="areal"
+                sendButton="true"
+                showFaces="true"
+                url="https://developers.facebook.com/docs/plugins/"
+                verbToDisplay="like"
+                width="700"/>
+            <youtube_component
+                jcr:created="{Date}2019-03-29T02:00:07.067+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-31T03:04:26.571+05:30"
+                jcr:lastModifiedBy="akash.r"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/youtube-component"
+                height="500"
+                padding="5px"
+                videoid="PgIstDzzncs"
+                width="1300"/>
+            <map_component
+                jcr:created="{Date}2019-03-29T02:01:35.782+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-31T06:15:29.841+05:30"
+                jcr:lastModifiedBy="akash.r"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/mapcomponent"
+                address="Nanak Vihar"
+                height="500"
+                lat="17.4474"
+                longitude="78.3762"
+                width="900"/>
+            <tabcomponent
+                jcr:created="{Date}2019-03-29T02:03:04.695+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-29T02:03:29.539+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/tabcomponent">
+                <tabcomponent jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        heading="MBA"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        heading="MBBS"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        heading="BTech"/>
+                </tabcomponent>
+                <MBA
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/parsys">
+                    <text
+                        jcr:created="{Date}2019-03-29T02:03:41.080+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-03-29T02:03:52.116+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/text"
+                        text="&lt;p>The&amp;nbsp;&lt;b>Master of&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Business_Administration&quot; title=&quot;Business Administration&quot;>Business Administration&lt;/a>&lt;/b>&amp;nbsp;(&lt;b>MBA&lt;/b>&amp;nbsp;or&amp;nbsp;&lt;b>M.B.A.&lt;/b>) degree originated in the United States in the early 20th century when the country industrialized and companies sought&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Scientific_management&quot; title=&quot;Scientific management&quot;>scientific approaches to management&lt;/a>.&lt;sup>&lt;a href=&quot;https://en.wikipedia.org/wiki/Master_of_Business_Administration#cite_note-1&quot;>[1]&lt;/a>&lt;/sup>&amp;nbsp;The core courses in an MBA program cover various areas of business such as&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Accounting&quot; title=&quot;Accounting&quot;>accounting&lt;/a>,&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Applied_statistics&quot; title=&quot;Applied statistics&quot;>applied statistics&lt;/a>,&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Business_communication&quot; title=&quot;Business communication&quot;>business communication&lt;/a>,&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Business_ethics&quot; title=&quot;Business ethics&quot;>business ethics&lt;/a>,&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Business_law&quot; title=&quot;Business law&quot;>business law&lt;/a>,&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Finance&quot; title=&quot;Finance&quot;>finance&lt;/a>,&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Managerial_economics&quot; title=&quot;Managerial economics&quot;>managerial economics&lt;/a>,&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Management&quot; title=&quot;Management&quot;>management&lt;/a>,&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Entrepreneurship&quot; title=&quot;Entrepreneurship&quot;>entrepreneurship&lt;/a>,&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Marketing&quot; title=&quot;Marketing&quot;>marketing&lt;/a>&amp;nbsp;and&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Operations_management&quot; title=&quot;Operations management&quot;>operations&lt;/a>&amp;nbsp;in a manner most relevant to management&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Analysis&quot; title=&quot;Analysis&quot;>analysis&lt;/a>&amp;nbsp;and strategy.&lt;/p>&#xd;&#xa;&lt;p>Most programs also include&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Elective_course&quot; title=&quot;Elective course&quot;>elective courses&lt;/a>&amp;nbsp;and concentrations for further study in a particular area, for example accounting, finance, and marketing. MBA programs in the United States typically require completing about sixty&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Course_credit&quot; title=&quot;Course credit&quot;>credits&lt;/a>, nearly twice the number of credits typically required for degrees that cover some of the same material such as the&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Master_of_Economics&quot; title=&quot;Master of Economics&quot;>Master of Economics&lt;/a>,&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Master_of_Finance&quot; title=&quot;Master of Finance&quot;>Master of Finance&lt;/a>,&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Master_of_Accountancy&quot; title=&quot;Master of Accountancy&quot;>Master of Accountancy&lt;/a>,&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Master_of_Science_in_Marketing&quot; title=&quot;Master of Science in Marketing&quot;>Master of Science in Marketing&lt;/a>&amp;nbsp;and&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Master_of_Science_in_Management&quot; title=&quot;Master of Science in Management&quot;>Master of Science in Management&lt;/a>.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                </MBA>
+                <MBBS
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/parsys">
+                    <text_copy
+                        jcr:created="{Date}2019-03-29T02:03:41.080+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-03-29T02:05:00.671+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/text"
+                        text="&lt;p>A&amp;nbsp;&lt;b>Bachelor of Technology&lt;/b>&amp;nbsp;(&lt;a href=&quot;https://en.wikipedia.org/wiki/Latin&quot; title=&quot;Latin&quot;>Latin&lt;/a>&amp;nbsp;&lt;i>Baccalaureus Technologiae&lt;/i>, commonly abbreviated as&amp;nbsp;&lt;b>B.Tech.&lt;/b>&amp;nbsp;or&amp;nbsp;&lt;b>BTech&lt;/b>; with Honours as&amp;nbsp;&lt;b>B.Tech. (Hons.)&lt;/b>) is an&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Undergraduate&quot; title=&quot;Undergraduate&quot;>undergraduate&lt;/a>&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Academic_degree&quot; title=&quot;Academic degree&quot;>academic degree&lt;/a>&amp;nbsp;conferred after completion of a three-year, a four-year or even a five-year (such as in Nigeria) program of studies at an accredited university or accredited university-level institution. B.Tech. is considered to be a skill-oriented course. The degree is conferred in the&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Commonwealth_of_Nations&quot; title=&quot;Commonwealth of Nations&quot;>Commonwealth of Nations&lt;/a>, the United States and elsewhere.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                </MBBS>
+                <BTech
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/parsys">
+                    <text_copy
+                        jcr:created="{Date}2019-03-29T02:03:41.080+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-03-29T02:05:04.788+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/text"
+                        text="&lt;p>A&amp;nbsp;&lt;b>Bachelor of Technology&lt;/b>&amp;nbsp;(&lt;a href=&quot;https://en.wikipedia.org/wiki/Latin&quot; title=&quot;Latin&quot;>Latin&lt;/a>&amp;nbsp;&lt;i>Baccalaureus Technologiae&lt;/i>, commonly abbreviated as&amp;nbsp;&lt;b>B.Tech.&lt;/b>&amp;nbsp;or&amp;nbsp;&lt;b>BTech&lt;/b>; with Honours as&amp;nbsp;&lt;b>B.Tech. (Hons.)&lt;/b>) is an&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Undergraduate&quot; title=&quot;Undergraduate&quot;>undergraduate&lt;/a>&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Academic_degree&quot; title=&quot;Academic degree&quot;>academic degree&lt;/a>&amp;nbsp;conferred after completion of a three-year, a four-year or even a five-year (such as in Nigeria) program of studies at an accredited university or accredited university-level institution. B.Tech. is considered to be a skill-oriented course. The degree is conferred in the&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Commonwealth_of_Nations&quot; title=&quot;Commonwealth of Nations&quot;>Commonwealth of Nations&lt;/a>, the United States and elsewhere.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                </BTech>
+            </tabcomponent>
+            <apiintegration
+                jcr:created="{Date}2019-03-29T02:05:14.265+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-31T03:44:27.262+05:30"
+                jcr:lastModifiedBy="akash.r"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/apiintegration"
+                apiUrlLink="http://www.phoenix.edu/api/plct/3/uopx/programs/availability/fos?postalCode=85040"/>
+            <osgi_service
+                jcr:created="{Date}2019-03-29T02:05:35.881+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-31T04:11:51.770+05:30"
+                jcr:lastModifiedBy="akash.r"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/osgi-service"/>
+            <searchcomponent
+                jcr:created="{Date}2019-03-29T02:05:46.899+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-31T15:04:39.302+05:30"
+                jcr:lastModifiedBy="akash.r"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/searchcomponent"
+                path="/content"/>
+            <search_and_replace
+                jcr:created="{Date}2019-03-29T02:06:04.382+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-29T02:06:04.382+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/search-and-replace"/>
+        </root>
+    </jcr:content>
+</jcr:root>

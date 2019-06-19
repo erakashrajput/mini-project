@@ -1,0 +1,29 @@
+<div class="container">
+	<h3>Statement:</h3>
+	<p>4: Carousal Component.</p>
+
+
+
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.css @ categories='carousel.libs'}" data-sly-unwrap/>
+
+<sly data-sly-test="${wcmmode.edit || wcmmode.preview}">
+    <p><b>ENTITIES ITEMS:</b></p>
+	<div class="acarousel-item-float">
+		<div data-sly-resource="${'./par' @resourceType='/libs/wcm/foundation/components/parsys'}" data-sly-unwrap></div>
+	</div>
+</sly>
+
+<sly data-sly-test="${wcmmode.disabled}">
+    <div class="acarousel-container">
+      <div class="acarousel-content">
+          <div data-sly-resource="${'./par' @resourceType='/libs/wcm/foundation/components/parsys'}"></div>
+      </div>
+      <a class="acarousel-left" href="javascript:void(0);"><i class="fa fa-arrow-left"></i></a>
+      <a class="acarousel-right" href="javascript:void(0);"><i class="fa fa-arrow-right"></i></a>
+    </div>
+</sly>
+
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.js @ categories='carousel.libs'}" data-sly-unwrap/>
+</div>
+
+<hr>

@@ -1,0 +1,18 @@
+<div class="container"  style="font-family:${properties.font @context= 'unsafe'}">
+    <h3>Statement:</h3>
+    <p>5: Facebook Component.</p>
+    <sly data-sly-test = ${wcmmode.edit}>
+        <h4>  Double click here to author the component</h4>
+    </sly>
+    <div class="fb-like"  
+        data-href="${properties.url}"
+        data-share="${properties.sendButton}"
+        data-layout="${properties.layoutStyles}"
+        data-width="${properties.width}"
+        data-show-faces="${properties.showFaces}" 
+        data-action="${properties.verbToDisplay}" 
+        data-colorscheme="${properties.colorScheme}"
+        data-size="small" 
+        ></div>
+</div>
+<hr>

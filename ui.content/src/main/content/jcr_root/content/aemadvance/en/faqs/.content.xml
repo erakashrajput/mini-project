@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-03-25T16:31:19.243+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/aemadvance/settings/wcm/templates/empty-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="FAQs"
+        sling:resourceType="aemadvance/components/structure/page">
+        <root
+            jcr:lastModified="{Date}2019-03-13T20:50:53.049+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid"/>
+    </jcr:content>
+    <first-page-1/>
+    <faq-page-2/>
+</jcr:root>

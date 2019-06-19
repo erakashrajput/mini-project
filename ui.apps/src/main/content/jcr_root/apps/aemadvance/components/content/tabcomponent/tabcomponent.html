@@ -1,0 +1,35 @@
+<div class="container">
+   <h3>Statement:</h3>
+   <p>9 : Tab Component</p>
+   <sly
+      data-sly-use.myitems="org.aemadvance.aemadvance.core.models.TabComponentModel" />
+   <!-- EDIT MODE-->
+   <sly data-sly-test="${wcmmode.edit} ">
+      <sly data-sly-list.multi="${myitems.tabcomponent}">
+         <div>
+            <h3>${multi.heading}</h3>
+            <p data-sly-resource="${multi.heading @ resourceType='wcm/foundation/components/parsys'}">
+            </p>
+         </div>
+      </sly>
+   </sly>
+   <!-- PREVIEW MODE -->
+   <!-- 
+      * multiList.count -> gives the iteration count (index can also be used but it starts from 0....)
+      * How to refresh pages while changing modes? -->
+   <sly data-sly-test="${!wcmmode.edit}">
+      <div>
+         <ul class="nav nav-tabs" data-sly-list.multi="${myitems.tabcomponent}">
+            <li ><a data-toggle="tab" href="#tab-${multiList.count}">${multi.heading}</a></li>
+         </ul>
+         <div class="tab-content" data-sly-list.multi="${myitems.tabcomponent}">
+            <div id="tab-${multiList.count}" class="tab-pane fade ">
+               <p
+                  data-sly-resource="${multi.heading @ resourceType='wcm/foundation/components/parsys'}">
+               </p>
+            </div>
+         </div>
+      </div>
+   </sly>
+</div>
+<hr>

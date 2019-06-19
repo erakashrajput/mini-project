@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-03-31T22:14:39.344+05:30"
+        cq:lastModifiedBy="akash.r"
+        cq:template="/conf/aemadvance/settings/wcm/templates/press-release-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Press Release 5"
+        sling:resourceType="aemadvance/components/structure/pressReleasePage"
+        navTitle="nav title"
+        pageTitle="Press 5 Page title"
+        pressReleaseDate="{Date}2019-03-12T00:00:00.000+05:30">
+        <root
+            jcr:lastModified="{Date}2019-03-30T00:38:40.502+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <pressreleasefooter
+                jcr:created="{Date}2019-03-26T18:05:03.781+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-29T21:11:29.359+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/pressReleaseFooter"/>
+            <companysummary
+                jcr:created="{Date}2019-03-26T18:04:52.444+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-26T18:41:52.980+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/companySummary"
+                date="{Date}2019-03-05T00:00:00.000+05:30"
+                location="California, US"
+                prContact="{Date}2019-03-05T00:00:00.000+05:30"
+                summary="&lt;p>&lt;span class=&quot;ILfuVd&quot;>An effective &lt;b>company summary&lt;/b> should give &#xd;&#xa;readers, such as potential investors, a quick and easy way to understand&#xd;&#xa; your business, its products and services, its mission and goals, how it&#xd;&#xa; meets the needs of its target market, and how it stands out from &#xd;&#xa;competitors.&lt;/span>&lt;/p>&#xd;&#xa;&lt;p>Before you begin writing your company summary, remember to stick to the &#xd;&#xa;big picture. Other sections of your business plan will provide the &#xd;&#xa;specific details of your business. The summary synthesizes all of that &#xd;&#xa;information into one page.&lt;/p>&#xd;&#xa;&lt;p> &lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <pressreleasecomponen_934268603
+                jcr:created="{Date}2019-03-30T00:34:24.363+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-31T22:12:03.604+05:30"
+                jcr:lastModifiedBy="akash.r"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/pressReleaseComponent"
+                bodyContent="&lt;p>sdffbgn&lt;/p>&#xd;&#xa;"
+                introPara="&lt;p>sazvdbfxng&lt;/p>&#xd;&#xa;"
+                textIsRich="[true,true]"/>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-03-29T21:08:09.495+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/aemadvance/settings/wcm/templates/press-release-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Press Release 4"
+        sling:resourceType="aemadvance/components/structure/pressReleasePage"
+        pressReleaseDate="{Date}2019-03-12T00:00:00.000+05:30">
+        <root
+            jcr:lastModified="{Date}2019-03-25T20:11:27.903+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <pressreleasecomponen
+                jcr:created="{Date}2019-03-26T18:07:48.136+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-26T18:11:28.434+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/pressReleaseComponent"/>
+            <pressreleasefooter
+                jcr:created="{Date}2019-03-26T18:05:03.781+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-26T18:11:56.033+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/pressReleaseFooter"/>
+        </root>
+    </jcr:content>
+</jcr:root>

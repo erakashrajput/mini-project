@@ -1,0 +1,28 @@
+<div class="container">
+	<h3>Statement:</h3>
+	<p>10: API Integration Component.</p>
+    </div>
+
+
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.css @ categories='apiintegration.lib'}" data-sly-unwrap/>
+
+		<input type="hidden" value="${properties.apiUrlLink}" id="apiUrlLink">
+
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<ul id="apiUrlData"></ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<button  class="btn btn-primary text-center" id="pagination">Load More</button>
+		</div>
+	</div>
+</div>
+
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.js @ categories='apiintegration.lib'}" data-sly-unwrap/>
+
+<hr>

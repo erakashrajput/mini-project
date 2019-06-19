@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/acs-commons"
+        cq:lastModified="{Date}2019-03-18T19:52:41.231+05:30"
+        cq:lastModifiedBy="akash.r"
+        cq:template="/apps/acs-commons/templates/utilities/genericlist"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="padding"
+        jcr:uuid="06d57b8c-e6d7-4521-be4c-902bf8eb44d1"
+        sling:resourceType="acs-commons/components/utilities/genericlist">
+        <list
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <item
+                jcr:created="{Date}2019-03-18T19:51:48.087+05:30"
+                jcr:createdBy="akash.r"
+                jcr:lastModified="{Date}2019-03-18T19:52:18.164+05:30"
+                jcr:lastModifiedBy="akash.r"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="5px"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="5px"/>
+            <item_1991880424
+                jcr:created="{Date}2019-03-18T19:52:20.098+05:30"
+                jcr:createdBy="akash.r"
+                jcr:lastModified="{Date}2019-03-18T19:52:27.258+05:30"
+                jcr:lastModifiedBy="akash.r"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="10px"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="10px"/>
+            <item_62717712
+                jcr:created="{Date}2019-03-18T19:52:32.275+05:30"
+                jcr:createdBy="akash.r"
+                jcr:lastModified="{Date}2019-03-18T19:52:41.227+05:30"
+                jcr:lastModifiedBy="akash.r"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="15px"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="15px"/>
+        </list>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-03-31T23:26:40.157+05:30"
+        cq:lastModifiedBy="akash.r"
+        cq:template="/conf/aemadvance/settings/wcm/templates/faq-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="FAQ Page 1"
+        sling:resourceType="aemadvance/components/structure/faqPage">
+        <root
+            jcr:lastModified="{Date}2019-03-29T16:10:08.364+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <faq
+                jcr:created="{Date}2019-03-29T16:11:37.956+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-31T23:26:40.141+05:30"
+                jcr:lastModifiedBy="akash.r"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/faq"
+                answer="Akash"
+                category="category2"
+                question="What is your name?"/>
+            <faq_347166626
+                jcr:created="{Date}2019-03-31T21:31:20.024+05:30"
+                jcr:createdBy="akash.r"
+                jcr:lastModified="{Date}2019-03-31T21:37:35.296+05:30"
+                jcr:lastModifiedBy="akash.r"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/faq"
+                answer="Good"
+                category="category3"
+                question="How is Jammu"/>
+            <faq_1236568692
+                jcr:created="{Date}2019-03-31T21:32:09.274+05:30"
+                jcr:createdBy="akash.r"
+                jcr:lastModified="{Date}2019-03-31T21:37:39.297+05:30"
+                jcr:lastModifiedBy="akash.r"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/faq"
+                answer="nice"
+                category="category2"
+                question="How is Mumbai?"/>
+        </root>
+    </jcr:content>
+</jcr:root>

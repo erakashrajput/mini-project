@@ -1,0 +1,28 @@
+<div class="container">
+   <h3>Statement:</h3>
+   <p>1.2 : Dynamic fields in Touch UI using ACS Commons List.</p>
+   <br>
+   <sly
+      data-sly-use.myitems="org.aemadvance.aemadvance.core.models.DynamicFieldsComponent" />
+   <div class="container row" data-sly-list.multi="${myitems.dynamicfields}">
+      <div class="card panel panel-default container">
+         <h1 class="text-info">${multi.name}</h1>
+         <div class="card-body row">
+            <div class="col-sm-3">
+               <img src="${multi.profileImage}" alt="Image path not set"
+                  style="width: 150; height: 150px" />
+            </div>
+            <div class="col-sm-9">
+               <h4>${multi.designation}</h4>
+               <p>
+                  <span class="text-danger">${multi.countries} </span>|
+                  ${multi.addressLineOne} ,
+                  ${multi.addressLineTwo},${multi.city},${multi.city}<br> <b>T</b>
+                  ${multi.phoneNumber} | <b>F</b> ${multi.faxNumber}
+               </p>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<hr>

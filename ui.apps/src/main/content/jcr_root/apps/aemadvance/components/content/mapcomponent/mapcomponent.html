@@ -1,0 +1,11 @@
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.css @ categories='map.lib'}" data-sly-unwrap/>
+<div class="container">
+<h3>Statement:</h3>
+<p>8: Google Map Component.</p>
+<!--The div element for the map -->
+<div id="map" data-></div>
+<input type="hidden" id="lat" value="${properties.lat}" />
+<input type="hidden" id="long" value="${properties.longitude}" />
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.js @ categories='map.lib'}" data-sly-unwrap/>
+<div>
+<hr>

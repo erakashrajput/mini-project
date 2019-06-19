@@ -1,0 +1,12 @@
+<div class="container minHeight">
+   <h3 data-sly-test="${pageProperties.jcr:title}"><b>Title : </b>${pageProperties.jcr:title}</h3>
+   <h3 data-sly-test="${pageProperties.pageTitle}"><b>Page Title : </b>${pageProperties.pageTitle}</h3>
+   <sly data-sly-use.date="${'org.aemadvance.aemadvance.core.models.DateFormatter' @ date=pageProperties.pressReleaseDate, format='dd/MM/yyyy'}" data-sly-test="${date}">
+      <h3><b>Date : </b>${date.value}</h3>
+   </sly>
+   <h3><b>Subtitle : </b>${pageProperties.subtitle || ''}</h3>
+   <h3><b>Intro : </b>${properties.introPara @ context='html' || ''}</h3>
+   <h3><b>Body : </b>${properties.bodyContent @ context='html' || ''}</h3>
+   <br/>
+
+</div>

@@ -1,0 +1,21 @@
+<div class="container">
+    <h3>Statement:</h3>
+    <p>15 : Search Component .</p>
+
+
+    <div class="input-group">
+        <input type="text" id="searchKey" class="form-control" placeholder="Search the keyword">
+        <input type="hidden" id="path" value='${properties.path @ context="unsafe"}'>
+
+        <span class="input-group-btn">
+            <button class="btn btn-success" id="search-btn">Go</button>
+        </span>
+    </div>
+
+    <div id="resultSection"></div>
+</div>
+
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.js @ categories='search.libs'}" data-sly-unwrap />
+
+
+<hr>

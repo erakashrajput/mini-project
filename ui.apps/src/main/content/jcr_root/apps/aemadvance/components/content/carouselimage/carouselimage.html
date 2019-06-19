@@ -1,0 +1,20 @@
+<!--<sly data-sly-use.recource="org.aemadvance.aemadvance.core.models.AdvanceCarouselImageModel">-->
+
+	<sly data-sly-test="${wcmmode.edit || wcmmode.preview}">
+
+		<div class="acarousel-item-margin">			
+			<img class="acarousel-edit-image" src=" ${properties.carouselImagePath || '/content/dam/we-retail/en/people/mens/men_1.jpg'}" alt="1" />
+			<h1 class="acarousel-edit-title">${properties.carouselImageCaption}</h1>
+		</div>
+
+	</sly>
+
+	<sly data-sly-test="${wcmmode.disabled}">
+
+		<div class="acarousel-item">      
+			<img class="acarousel-item-image" src=" ${properties.carouselImagePath || '/content/dam/we-retail/en/people/mens/men_1.jpg'}" alt="1" />
+			<h1 class="acarousel-item-title">${properties.carouselImageCaption}</h1>
+		</div>
+
+	</sly>
+</sly>

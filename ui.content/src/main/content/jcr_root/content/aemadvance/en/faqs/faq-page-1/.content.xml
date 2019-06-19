@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-03-29T17:32:21.968+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/aemadvance/settings/wcm/templates/faq-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="FAQ Page 1"
+        sling:resourceType="aemadvance/components/structure/faqPage"
+        pageTitle="FAQ 1">
+        <root
+            jcr:lastModified="{Date}2019-03-21T14:50:04.586+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <faq
+                jcr:created="{Date}2019-03-21T15:03:30.894+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-29T17:32:21.967+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/faq"
+                answer="nO SIR"
+                category="category1"
+                question="wEATHER"/>
+        </root>
+    </jcr:content>
+</jcr:root>

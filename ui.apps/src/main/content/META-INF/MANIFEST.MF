@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Content-Package-Roots: /content/aemadvance,/content/dam/aemadvance,/co
+ ntent/Training-Shared,/apps/aemadvance,/conf/aemadvance,/etc/acs-comm
+ ons/lists
+Content-Package-Type: mixed
+Content-Package-Id: my_packages:package_backup:1.2.3
+Content-Package-Description: Final code .
+

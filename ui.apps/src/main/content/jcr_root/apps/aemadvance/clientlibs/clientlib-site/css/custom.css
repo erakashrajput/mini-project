@@ -1,0 +1,17 @@
+.bgcdarklist{
+    background-color: yellow;
+    }
+
+/*responsive grid */
+
+.rgs-myGrid {
+        background-color: #edf0f4;
+        border: 5px solid #ffffff;
+        height: 150px;
+        line-height: 150px;
+}
+
+/*FAQ */
+.faq {
+	margin: 10px;
+}

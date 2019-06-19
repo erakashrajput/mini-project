@@ -1,0 +1,17 @@
+<div>
+   <sly data-sly-test.question="${properties.question}"/>
+   <sly data-sly-test="${!question}">
+      <sly data-sly-test.question="Enter the question." />
+   </sly>
+   <sly data-sly-test.answer="${properties.answer}"/>
+   <sly data-sly-test="${!answer}">
+      <sly data-sly-test.answer="Enter the answer." />
+   </sly>
+   <sly data-sly-test.category="${properties.category}"/>
+   <sly data-sly-test="${!category}">
+      <sly data-sly-test.category="Select a category" />
+   </sly>
+   <p>Category: ${category}</p>
+   <p>Question: ${question}</p>
+   <p>Answer: ${answer}</p>
+</div>

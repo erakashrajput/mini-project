@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-03-30T02:13:11.959+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/aemadvance/settings/wcm/templates/press-release-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Press Release 2"
+        sling:resourceType="aemadvance/components/structure/pressReleasePage"
+        pageTitle="Press Release 2"
+        pressReleaseDate="{Date}2019-03-26T00:00:00.000+05:30"
+        subtitle="Press Release 2 Subtitle">
+        <root jcr:primaryType="nt:unstructured">
+            <pressreleasefooter
+                jcr:lastModified="{Date}2019-03-30T02:13:11.958+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/pressReleaseFooter"
+                prContact="/content/Training-Shared/pr-contact/pr-contact-1"/>
+            <pressreleasecomponen
+                jcr:lastModified="{Date}2019-03-26T18:56:06.019+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/pressReleaseComponent"
+                bodyContent="&lt;p style=&quot;text-align: center;&quot;>Body for Press Release 2&lt;/p>&#xd;&#xa;"
+                heading="Heading for Press Release  2"
+                introPara="&lt;p>            Intro for Press Release 2&lt;/p>&#xd;&#xa;"
+                textIsRich="[true,true]"
+                title="Title for Press Release  2"/>
+        </root>
+    </jcr:content>
+</jcr:root>

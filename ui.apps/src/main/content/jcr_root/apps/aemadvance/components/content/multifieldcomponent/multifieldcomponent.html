@@ -1,0 +1,14 @@
+ <sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.css @ categories='multi.lib'}" data-sly-unwrap/>
+
+<div class="container ">
+   <h3>Statement:</h3>
+   <p>1.1 : Multi field Touch UI with Sightly Component.</p>
+   <sly
+      data-sly-use.myitems="org.aemadvance.aemadvance.core.models.MultifieldComponentModel" />
+   <ul data-sly-list.multi="${myitems.multifieldcomponent}"
+      class="list-group">
+      <li class="list-group-item text-secondary multiList"><a href="${multi.linkURL}.html"
+         target="_blank">${multi.linkText}</a></li>
+   </ul>
+</div>
+<hr>

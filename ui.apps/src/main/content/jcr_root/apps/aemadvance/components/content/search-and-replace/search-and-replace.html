@@ -1,0 +1,51 @@
+<div class="container">
+	<h3>Statement:</h3>
+	<p>21 : Servlet for nodes find and replace name functionality</p>
+
+
+
+
+<div class="container nodeReplace">
+	<h2 class="text-center">Find and Replace Node Properties</h2><br/>
+	<form>
+        <div class="form-group">
+			<label for="nodePath">Node Path:</label>
+			<input type="text" class="form-control" id="nodePath" placeholder="Enter Node Path who's values to be Replaced" required>
+		</div> 
+		<div class="form-group">
+			<label for="firstString">First String:</label>
+			<input type="text" class="form-control" id="firstString" placeholder="Enter First String to be Replaced" required>
+		</div>
+		<div class="form-group">
+			<label for="firstValue">First Value:</label>
+			<input type="text" class="form-control" id="firstValue" placeholder="Enter First Value to Replace" required >
+		</div>
+		<div class="form-group">
+			<label for="secondString">Second String:</label>
+			<input type="text" class="form-control" id="secondString" placeholder="Enter Second String to be Replaced" required >
+		</div>
+		<div class="form-group">
+			<label for="secondValue">Second Value:</label>
+			<input type="text" class="form-control" id="secondValue" placeholder="Enter Second Value to Replace"  required>
+		</div>
+		<div class="form-group">
+			<label for="thirdString">Third String:</label>
+			<input type="text" class="form-control" id="thirdString" placeholder="Enter Third String to be Replaced" required>
+		</div>
+		<div class="form-group">
+			<label for="thirdValue">Third Value:</label>
+			<input type="text" class="form-control" id="thirdValue" placeholder="Enter Third Value to Replace"  required>
+		</div>
+		<div class="form-group text-center">
+        	<button type="button" id="replaceBtn" class="btn btn-primary">Replace</button>
+        </div>
+	</form>
+	<div id="replaceStatus"></div>
+</div>
+
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.js @ categories='search-and-replace.libs'}" data-sly-unwrap/>
+
+
+
+</div>
+<hr>

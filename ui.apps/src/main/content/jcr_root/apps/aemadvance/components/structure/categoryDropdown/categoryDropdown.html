@@ -1,0 +1,29 @@
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.css @ categories='categoryDropdown.aemadvance'}" data-sly-unwrap/>
+
+<div class="container">
+	<h3>Statement:</h3>
+	<p>7 : Dynamic Content</p>
+
+
+
+
+<div class="container "> 
+	<div class="form-group">
+		<label for="dropMenu">Select Category</label>
+        <select class="form-control" id="dropMenu" onchange="onSelectCategory()">
+            <option disabled selected></option>
+            <option value="category1">Category 1</option>
+            <option value="category2">Category 2</option>
+            <option value="category3">Category 3</option>
+            <option value="category4">Category 4</option>
+        </select>
+    </div>
+	<div class="container item">
+		<ul id="resonseData"></ul>
+	</div>
+</div>
+
+</div>
+<hr>
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.js @ categories='categoryDropdown.aemadvance'}" data-sly-unwrap/>
+

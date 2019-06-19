@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-03-21T15:26:17.082+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/aemadvance/settings/wcm/templates/faq-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="FAQ Page 5"
+        sling:resourceType="aemadvance/components/structure/faqPage"
+        pageTitle="FAQ 5">
+        <root
+            jcr:lastModified="{Date}2019-03-21T14:50:04.586+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <faq
+                jcr:created="{Date}2019-03-21T15:20:27.237+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-21T15:26:17.081+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/faq"
+                answer="Create a language root and language copy inside the root, before creating a translation project.&#xd;&#xa;&#xd;&#xa;For example,&#xd;&#xa;Create a language root at /content/geometrixx with name as fr_LU (and title as French (Luxembourg)). Subsequently, create language copy of page from the references panel and navigate to Create structure only option in Create &amp; Translate. Finally, create a translation project and then add the language copy to the translation job.&#xd;&#xa;&#xd;&#xa;For details, refer to the additional resources below:&#xd;&#xa;&#xd;&#xa;    Preparing content for translation&#xd;&#xa;    Managing translation projects"
+                category="category4"
+                question="How to change the format while creating Language Copy for a project?"/>
+        </root>
+    </jcr:content>
+</jcr:root>

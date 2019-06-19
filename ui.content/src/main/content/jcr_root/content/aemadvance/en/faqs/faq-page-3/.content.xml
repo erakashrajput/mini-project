@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-03-28T18:59:43.098+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/aemadvance/settings/wcm/templates/faq-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="FAQ Page 3"
+        sling:resourceType="aemadvance/components/structure/faqPage"
+        pageTitle="FAQ 3">
+        <root
+            jcr:lastModified="{Date}2019-03-21T14:50:04.586+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <faq
+                jcr:created="{Date}2019-03-21T15:18:10.313+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-28T18:59:43.097+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/faq"
+                answer="Check the Network panel (of Chrome browser) where a personal setup (JS has not been minified).&#xd;&#xa;&#xd;&#xa;View the Initiator column to determine what the initiator of a request was. It provides the files and the line numbers from where the AJAX calls are made. Later, you can trace the error handling function and change the error message as per your requirement."
+                category="categories3"
+                question="How can I customize the error messages while navigating page hierarchy in AEM sites console?"/>
+        </root>
+    </jcr:content>
+</jcr:root>

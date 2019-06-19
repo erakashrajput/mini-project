@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2019-03-31T23:39:32.514+05:30"
+    jcr:createdBy="akash.r"
+    jcr:description="Final code ."
+    jcr:lastModified="{Date}2019-03-31T23:39:32.514+05:30"
+    jcr:lastModifiedBy="akash.r"
+    jcr:primaryType="vlt:PackageDefinition"
+    buildCount="8"
+    builtWith="Adobe Experience Manager-6.4.0"
+    fixedBugs=""
+    group="my_packages"
+    lastUnwrapped="{Date}2019-03-31T23:39:32.514+05:30"
+    lastUnwrappedBy="akash.r"
+    lastWrapped="{Date}2019-03-31T23:39:32.514+05:30"
+    lastWrappedBy="akash.r"
+    name="package_backup"
+    testedWith=""
+    version="1.2.3">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/aemadvance"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/conf/aemadvance"
+            rules="[]"/>
+        <f2
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/dam/aemadvance"
+            rules="[]"/>
+        <f3
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/aemadvance"
+            rules="[]"/>
+        <f4
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/Training-Shared"
+            rules="[]"/>
+        <f5
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/acs-commons/lists"
+            rules="[]"/>
+    </filter>
+</jcr:root>

@@ -1,0 +1,14 @@
+<div class="pressReleases container">
+	<sly data-sly-test="${properties.parentNode}">
+
+        <sly data-sly-use.resource="org.aemadvance.aemadvance.core.models.PressReleaseModel" data-sly-test="${resource}">
+
+            <ul class="list" data-sly-list.pressReleases="${resource.getPressReleases}">
+                <li>
+                    <h2>Press Release : <a href="${pressReleases.pageURL}">${pressReleases.pageTitle}</a></h2>
+					<h3><b>Date : </b>${pressReleases.releaseDate}</h3>
+                </li>
+            </ul>
+        </sly>
+	</sly>
+</div>

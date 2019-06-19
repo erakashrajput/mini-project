@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="7d192ac7-0ed0-4b45-b00c-d81cb317d030">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="aemadvance/abdul.jpeg"
+        jcr:lastModified="{Date}2019-03-31T00:14:46.073+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2019-03-31T00:14:45.461+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}96"
+            dam:Physicalheightininches="{Decimal}5.0"
+            dam:Physicalwidthindpi="{Long}96"
+            dam:Physicalwidthininches="{Decimal}5.0"
+            dam:Progressive="no"
+            dam:sha1="fc4bc34e09d4c3dc572e84c3a2fd7fb220728e64"
+            dam:size="{Long}108214"
+            dc:format="image/jpeg"
+            exif:ColorSpace="{Long}65535"
+            exif:ExifVersion="0221"
+            exif:PixelXDimension="{Long}480"
+            exif:PixelYDimension="{Long}480"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            tiff:BitsPerSample="{Long}[8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:ImageLength="{Long}480"
+            tiff:ImageWidth="{Long}480"
+            tiff:Orientation="{Long}1"
+            tiff:PhotometricInterpretation="{Long}2"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:SamplesPerPixel="{Long}3"
+            tiff:XResolution="960000/10000"
+            tiff:YResolution="960000/10000"
+            xmp:CreateDate="{Date}2015-08-12T22:03:36.000+01:00"
+            xmp:CreatorTool="Adobe Photoshop CS6 (Windows)"
+            xmp:MetadataDate="{Date}2015-08-13T08:10:40.000+01:00"
+            xmp:ModifyDate="{Date}2015-08-13T08:10:40.000+01:00"
+            xmpMM:DocumentID="5D1330215C8E1D02EA8A84C0E19B0D25"
+            xmpMM:InstanceID="xmp.iid:6F60E5678A41E51181E2A63D1CE8534C"
+            xmpMM:OriginalDocumentID="5D1330215C8E1D02EA8A84C0E19B0D25">
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}2"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:91DBF1298A41E51181E2A63D1CE8534C"
+                    stEvt:softwareAgent="Adobe Photoshop CS6 (Windows)"
+                    stEvt:when="{Date}2015-08-13T08:10:40.000+01:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:6F60E5678A41E51181E2A63D1CE8534C"
+                    stEvt:softwareAgent="Adobe Photoshop CS6 (Windows)"
+                    stEvt:when="{Date}2015-08-13T08:10:40.000+01:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

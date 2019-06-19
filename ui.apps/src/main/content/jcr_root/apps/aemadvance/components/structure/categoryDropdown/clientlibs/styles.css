@@ -1,0 +1,11 @@
+.select {
+	margin: 10px;
+}
+
+.select #dropMenu {
+	width: 20%;
+}
+
+.item {
+	margin: 20px;
+}

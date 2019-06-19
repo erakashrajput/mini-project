@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/acs-commons"
+        cq:lastModified="{Date}2019-03-18T20:23:30.316+05:30"
+        cq:lastModifiedBy="akash.r"
+        cq:template="/apps/acs-commons/templates/utilities/genericlist"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="countries"
+        jcr:uuid="c361c69f-dca0-4ab3-bdc2-6c45dcd5463d"
+        sling:resourceType="acs-commons/components/utilities/genericlist">
+        <list
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <item
+                jcr:created="{Date}2019-03-14T17:29:32.817+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-18T20:23:17.961+05:30"
+                jcr:lastModifiedBy="akash.r"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="India"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="India"/>
+            <item_971812652
+                jcr:created="{Date}2019-03-14T17:29:44.413+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-18T20:23:30.312+05:30"
+                jcr:lastModifiedBy="akash.r"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="USA"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="USA"/>
+            <item_47505700
+                jcr:created="{Date}2019-03-14T17:30:59.487+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-14T17:31:05.892+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="ABC"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="abc"/>
+        </list>
+    </jcr:content>
+</jcr:root>

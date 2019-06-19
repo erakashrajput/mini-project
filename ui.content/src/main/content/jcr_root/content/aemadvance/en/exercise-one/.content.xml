@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-03-28T00:50:30.565+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2019-03-28T00:29:24.976+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/conf/aemadvance/settings/wcm/templates/content-page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Exercise 1"
+        jcr:uuid="268c907d-4fd4-48a0-be2c-6a0a05245b69"
+        sling:resourceType="aemadvance/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <multifieldcomponent
+                    jcr:created="{Date}2019-03-18T15:11:03.938+05:30"
+                    jcr:createdBy="akash.r"
+                    jcr:lastModified="{Date}2019-03-27T18:04:38.079+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="aemadvance/components/content/multifieldcomponent">
+                    <multifieldcomponent jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            linkText="Exercise 1"
+                            linkURL="/content/aemadvance/en/exercise-one"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            linkText="Exercise 2"
+                            linkURL="/content/aemadvance/en/exercise-one"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            linkText="Facebook"
+                            linkURL="/content/aemadvance/en/exercise-one"/>
+                    </multifieldcomponent>
+                </multifieldcomponent>
+                <osgi_service
+                    jcr:created="{Date}2019-03-27T19:22:17.261+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-03-27T19:22:17.261+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="aemadvance/components/content/osgi-service"/>
+                <search
+                    jcr:created="{Date}2019-03-27T19:35:21.650+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-03-27T19:35:21.650+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="social/commons/components/hbs/search"/>
+                <searchresult
+                    jcr:created="{Date}2019-03-27T19:35:28.736+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-03-27T19:36:01.102+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="social/commons/components/hbs/search/searchresult"
+                    maxPerPage="10"
+                    searchPaths="/content"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

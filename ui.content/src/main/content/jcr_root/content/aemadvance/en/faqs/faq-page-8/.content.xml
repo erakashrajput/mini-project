@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-03-29T19:26:38.727+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/aemadvance/settings/wcm/templates/faq-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="FAQ Page 8"
+        sling:resourceType="aemadvance/components/structure/faqPage">
+        <root
+            jcr:lastModified="{Date}2019-03-29T16:10:08.364+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <faq
+                jcr:created="{Date}2019-03-29T16:11:37.956+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-29T19:26:38.726+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/faq"
+                answer="Good"
+                category="category1"
+                question="Hows the weather?"/>
+            <faq_1825358539
+                jcr:created="{Date}2019-03-29T19:23:37.223+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-29T19:26:36.225+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/faq"
+                answer="none"
+                category="category4"
+                question="Weekend plans"/>
+            <faq_677022309
+                jcr:created="{Date}2019-03-29T19:25:07.752+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-29T19:26:33.894+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemadvance/components/content/faq"
+                answer="Narendra Modi"
+                category="category4"
+                question="PM India"/>
+        </root>
+    </jcr:content>
+</jcr:root>

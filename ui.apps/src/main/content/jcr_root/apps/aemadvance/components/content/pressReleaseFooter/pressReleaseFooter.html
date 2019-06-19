@@ -1,0 +1,14 @@
+<div class="minHeight container">
+    <sly data-sly-use.resource="org.aemadvance.aemadvance.core.models.PRContactModel" data-sly-test="${resource}">
+        <div class="prContact">
+            <h3><b>Contacts:</b></h3><br/>
+            <h5>Company : ${resource.company}</h5>
+            <h5>Name : ${resource.name}</h5>
+            <h5>Title : ${resource.title}</h5>
+            <h5>Phone : ${resource.phone}</h5>
+            <h5>Fax : ${resource.fax}</h5>
+            <h5>Email : ${resource.email}</h5>
+            <h5 data-sly-test="${resource.alternateEmail}">Alternate Email : ${resource.alternateEmail}</h5>
+        </div>
+    </sly>
+</div>

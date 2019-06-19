@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Facebook "
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/tabs">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Properties"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <column
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <url
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldDescription="Add the URL here"
+                                fieldLabel="URL To Like"
+                                name="./url"
+                                required="{Boolean}true"/>
+                            <sendbutton
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                fieldDescription="Add the Share button"
+                                name="./sendButton"
+                                text="Send Button"
+                                value="{Boolean}true"/>
+                            <layoutstyles
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                fieldDescription="Add the Layout"
+                                fieldLabel="Layout Styles"
+                                name="./layoutStyles">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <option1
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Standard"
+                                        value="standard"/>
+                                    <option2
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Box Count"
+                                        value="box_count"/>
+                                    <option3
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Button  Count"
+                                        value="button_count"/>
+                                    <option4
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Button"
+                                        value="button"/>
+                                </items>
+                            </layoutstyles>
+                            <width
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldDescription="Add the width to the container"
+                                fieldLabel="Width"
+                                name="./width"
+                                required="{Boolean}true"/>
+                            <showfaces
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                fieldDescription="Show faces"
+                                name="./showFaces"
+                                text="Show Faces"
+                                value="true"/>
+                            <verbtodisplay
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                fieldDescription="verb to display"
+                                fieldLabel="Verb To Display "
+                                name="./verbToDisplay">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <option1
+                                        jcr:primaryType="nt:unstructured"
+                                        text="like"
+                                        value="like"/>
+                                    <option2
+                                        jcr:primaryType="nt:unstructured"
+                                        text="recommend"
+                                        value="recommend"/>
+                                </items>
+                            </verbtodisplay>
+                            <colorscheme
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                fieldDescription="color scheme"
+                                fieldLabel="Color Scheme"
+                                name="./colorScheme">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <option1
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Dark"
+                                        value="dark"/>
+                                    <option2
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Light"
+                                        value="light"/>
+                                </items>
+                            </colorscheme>
+                            <fontstyle
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                fieldLabel="Font"
+                                name="./font">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <option1
+                                        jcr:primaryType="nt:unstructured"
+                                        text="fantasy"
+                                        value="fantasy"/>
+                                    <option2
+                                        jcr:primaryType="nt:unstructured"
+                                        text="monospace"
+                                        value="monospace"/>
+                                    <option3
+                                        jcr:primaryType="nt:unstructured"
+                                        text="serif"
+                                        value="serif"/>
+                                </items>
+                            </fontstyle>
+                        </items>
+                    </column>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

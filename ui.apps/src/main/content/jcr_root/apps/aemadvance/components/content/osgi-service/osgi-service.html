@@ -1,0 +1,19 @@
+<div class="container">
+   <h3>Statement:</h3>
+   <p>11 : OSGI Configuration.</p>
+   <sly
+      data-sly-use.myitems="org.aemadvance.aemadvance.core.services.OSGIService" />
+   <sly data-sly-test="${!myitems}">
+      <h3>Please go to Felix Console to configure the service</h3>
+   </sly>
+   <h5> <b>Email Template for Email Notification After Upload </b>: ${myitems.emailNotificationValue}</h5>
+   <h5><b>TechAspect Login Page Path  </b>: ${myitems.loginPathValue}</h5>
+   <h5><b>Email Template for Localization  </b>: ${myitems.emailLocalizationValue}</h5>
+   <h5><b>Email Template after Uploading Localized Assets </b> : ${myitems.emailLocalizedAssetsValue}</h5>
+   <h5><b>Email Template after failed Localization Upload  </b>: ${myitems.emailFailedLocalizationUploadValue}</h5>
+   <h5><b>Significant TechAspect metadata fields  </b>: ${myitems.techAspectMetadataFieldsValue}</h5>
+   <h5><b>Master Assets metadata fields  </b>: ${myitems.masterMetadataFieldsValue}</h5>
+   <h5><b>TechAspect filter path  </b>: ${myitems.filterPathValue}</h5>
+   </sly>
+</div>
+<hr>
